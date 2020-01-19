@@ -146,7 +146,7 @@ public class PostavshikController implements Initializable {
     public Connection getConnection() {
         Connection conn;
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://mysql-162551.srv.hoster.ru:3306/srv162551_grafinina", "srv162551_root", "2010dima");
+            conn = DriverManager.getConnection("jdbc:mysql://mysql-162920.srv.hoster.ru:3306/srv162920_database", "srv162920_aaa", "password");
             return conn;
         } catch (Exception e) {
             e.printStackTrace();
